@@ -6,6 +6,8 @@ from selenium.webdriver.support.ui import  Select
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
+Link = ""                                      #Add the link here
+
 MSuname = ""                                   #Microsoft email
 MSpwd = ""                                     #Microsoft pwd
 
@@ -24,7 +26,7 @@ rate1 = 7
 
 driver = webdriver.Chrome('./chromedriver')
 driver.maximize_window()
-driver.get("https://bit.ly/fb_day9")
+driver.get(Link)
 
 uname = driver.find_element_by_id('i0116')
 uname.send_keys(MSuname)
