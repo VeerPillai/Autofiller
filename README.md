@@ -1,8 +1,8 @@
 
 # SAKEC Autofill form
-This is a simple Python autofiller of Microsoft feedback forms that contain same qn everyday
+This is a simple Python autofiller of Microsoft feedback forms that contain same question everyday
 You just need to put your info once and the link it will do the rest automatically.
-Then just check once and then submit 
+Then just check once and then submit.
 
 ## Requirements
 * Chromedriver of your current chrome version
